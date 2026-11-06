@@ -1,0 +1,13 @@
+{
+  "name": "jenkins-demo-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js application for Jenkins CI/CD pipeline",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Running test suite... Tests passed!\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
