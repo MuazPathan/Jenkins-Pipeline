@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 app.get('/', (req, res) => {
   res.json({
     status: 'success',
-    message: 'Jenkins CI/CD Pipeline Deployed Successfully!',
+    message: 'Automated CI/CD Deployment Triggered via Git Commit!',
     timestamp: new Date().toISOString()
   });
 });
